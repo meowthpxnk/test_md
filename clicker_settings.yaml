@@ -1,0 +1,33 @@
+common:
+#  device_number: '79370912959'
+  device_number: '79319717825'
+  # сколько оставить чатов при удалении null | int 150
+  nonDeletableChats: null
+  # фильтр по дате при удалении чатов null | str '01-07-2021' | int 14 (days)
+  offsetDeletableChats: 14
+  # можно удалять группу true | false
+  groupDeletable: false
+  # задержка между отправкой пустого и первого сообщений, с
+  firstMessageDelay: 300
+database:
+  host: 'database'
+  port: 27017
+control:
+  host: 'http://server:8000'
+# сервер на каждом кликере - ожидает запросов с сообщениями с гейта
+# порт уникальный для каждого девайса
+# ДЛЯ НОВОГО ГЕЙТА
+whatsapp:
+  host: 'whatsapp'
+  port: 8080
+chat2desk:
+#  gateway: 'https://gateway.chat2desk.com'
+  gateway: 'http://server:8000'
+  api: 'https://api.chat2desk.com'
+  helpdesk: 'https//web.chat2desk.com'
+# общий сервер для всех кликеров - ждет сообщений от кликера,
+# подготавливает запрос на гейт и отправляет сообщение
+# СЕЙЧАС НЕ ИСПОЛЬЗУЕТСЯ
+clicker_server:
+  host: 'server'
+  port: 8000
