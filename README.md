@@ -42,9 +42,91 @@
 
 2. В папке создаем файл `clicker_settings.yaml`, основанный на примере [файла настроек](./clicker_settings.yaml "Перейти к примеру настроек")
 
-1. Для запуска приложения, потребуются `API ID` и `API hash` приложения от **Telegram**. Получить их можно здесь: https://my.telegram.org/auth.
+3. После успешного запуска приложения, необходимо отсканировать полученный QR код со своего аккаунта **WhatsApp**. *Settings -> Linked Devices -> Link Device*
 
-1. Для запуска приложения, потребуются `API ID` и `API hash` приложения от **Telegram**. Получить их можно здесь: https://my.telegram.org/auth.
+## Настройки
+Приложение обладает гибкими настройками, которые можно задать сформировав `.yml` файл по заданному [шаблону](./clicker_settings.yaml "Перейти к примеру настроек").
+
+### Переменные окружения
+* ❌ - обязательный параметр
+* ♻️ - необязательный параметр
+* Текстовое значение - необязательный параметр, с заранее обьявленным значением
+<table>
+    <tr>
+        <th>Название</th>
+        <th>Описание</th>
+        <th>По умолчанию</th>
+    </tr>
+    <tr>
+        <td colspan=3 align="left"><b><i>chat2desk</i></b></td>
+    </tr>
+    <tr>
+        <td>gateway</td>
+        <td>Root эндпоинт, с которым будет общаться приложение</td>
+        <td align="center"">❌</td>
+    </tr>
+    <tr>
+        <td colspan=3 align="left"><b><i>clicker_server</i></b></td>
+    </tr>
+    <tr>
+        <td>host</td>
+        <td>Хост внутреннего сервера</td>
+        <td align="center"">❌</td>
+    </tr>
+    <tr>
+        <td>port</td>
+        <td>Порт внутреннего сервера</td>
+        <td align="center"">❌</td>
+    </tr>
+    <tr>
+        <td colspan=3 align="left"><b><i>common</i></b></td>
+    </tr>
+    <tr>
+        <td>device_number</td>
+        <td>Номер телефона используемого для подключения</td>
+        <td align="center"">❌</td>
+    </tr>
+    <tr>
+        <td>one_file_auth_state</td>
+        <td>Метод хранения данных авторизации</td>
+        <td align="center"">❌</td>
+    </tr>
+    <tr>
+        <td colspan=3 align="left"><b><i>control</i></b></td>
+    </tr>
+    <tr>
+        <td>host</td>
+        <td>URL коннектора</td>
+        <td align="center"">❌</td>
+    </tr>
+    <tr>
+        <td colspan=3 align="left"><b><i>database</i></b></td>
+    </tr>
+    <tr>
+        <td>host</td>
+        <td>Хост базы данных</td>
+        <td align="center"">❌</td>
+    </tr>
+    <tr>
+        <td>port</td>
+        <td>Порт базы данных</td>
+        <td align="center"">❌</td>
+    </tr>
+    <tr>
+        <td colspan=3 align="left"><b><i>whatsapp</i></b></td>
+    </tr>
+    <tr>
+        <td>host</td>
+        <td>Хост api развернутого приложения</td>
+        <td align="center"">❌</td>
+    </tr>
+    <tr>
+        <td>port</td>
+        <td>Порт api развернутого приложения</td>
+        <td align="center"">❌</td>
+    </tr>
+</table>
+
 
 Пользовательские настройки:
 Обязательные:
@@ -150,3 +232,13 @@ senderKeys - данные авторизации
 1. делаем изменения в Clicker/
 2. собираем исполняемый js командой ```tsc``` из корня проекта
 3. запускаем командой ```node lib/clicker.js```
+
+
+
+## Термины
+* Входящее сообщение - сообщение пришедшее из сети и отправляемое в телеграм
+* Исходящее сообщение - сообщение пришедшее из телеграма и отправляемое на эндпоинт
+* API ID, API hash - Необходимые авторизационные данные зарегестрированного телеграм приложения. Официально доступны к получению, на официальном сайте telegram, после регистрации приложения.
+
+
+КОННЕКТОР -?
