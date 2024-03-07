@@ -1,6 +1,6 @@
 # WA-CLIENT
 #### Мэнеджер сообщений мессенджера WhatsApp
-![Котик](./Untitled.png)
+![Котик](https://psv4.userapi.com/c909518/u192567609/docs/d24/523bf2b9d272/Untitled.png?extra=yJq8sVhJ9FH5yYxG6G6OC1GIfP0KJEVMDhgvB65qWHkhL6wpeq4W_KcRLGLQwyKNOzSSMOfTu-KZG1l_N1TIR5YySDWu45LdjgvNnWi08ioQJmQyTkOhRgu8pr4Lozecjhpe5FIMXWcVhlpWRqsIcfvN)
 
 > При получении сообщения из *мессенджера*, оно отсылается на обозначенный *эндпоинт* в определенном формате. 
  Так же обьявлен *эндпоинт* самого приложения, на который можно отправлять сообщения, которые парсятся и отправляются в *мессенджер*.
