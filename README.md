@@ -1,7 +1,8 @@
 # WA-CLIENT
 #### Мэнеджер сообщений мессенджера WhatsApp
-![Котик](https://sun9-79.userapi.com/impg/pVbh1d5AKlA3nJlllh_uiLYUTNHSQTWuY5R2zg/v8H8HpTQmgc.jpg?size=795x999&quality=96&sign=30e53c0a79c6e07a582b2caab938d321&type=album "Милый котик")
- При получении сообщения из *whatsapp*, оно отсылается на обозначенный эндпоинт в определенном формате. 
+![Котик](https://sun9-79.userapi.com/impg/pVbh1d5AKlA3nJlllh_uiLYUTNHSQTWuY5R2zg/v8H8HpTQmgc.jpg?size=795x999&quality=96&sign=30e53c0a79c6e07a582b2caab938d321&type=album)
+
+> При получении сообщения из *whatsapp*, оно отсылается на обозначенный эндпоинт в определенном формате. 
  Так же обьявлен энпоинт самого приложения, на который можно отправлять сообщения, которые парсятся и отправляются в *whatsapp*.
 
 ## Оглавление
