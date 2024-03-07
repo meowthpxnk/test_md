@@ -31,14 +31,16 @@
 - [Термины](#термины)
 
 ## Ключевые зависимости
-[![NodeJS](https://img.shields.io/badge/NODEJS-16.16-6DA55F?style=for-the-badge&logo=node.js&logoColor=6DA55F)](https://nodejs.org/en/blog/release/v16.16.0 "Node JS") [![npm](https://img.shields.io/badge/Npm-7-red?style=for-the-badge&logo=npm&logoColor=red) ](https://www.npmjs.com/package/npm/v/7.0.0 "NPM")
-[![MongoDB](https://img.shields.io/badge/MONGODB->=5.0.9-589636?style=for-the-badge&logo=mongodb&logoColor=589636)](https://www.mongodb.com/docs/manual/release-notes/5.0/ "MongoDB")
-[![Baileys](https://img.shields.io/badge/@whiskeysockets/baileys-6.6.0-25d366?style=for-the-badge&logo=whatsapp&logoColor=25d366)](https://reactjs.org "Страница библиотеки Baileys")
+[![NodeJS](https://img.shields.io/badge/NODEJS-16.16-6DA55F?style=for-the-badge&logo=node.js&logoColor=6DA55F)](https://nodejs.org/en/blog/release/v16.16.0 "Node JS"){:target="_blank"}  [![npm](https://img.shields.io/badge/Npm-7-red?style=for-the-badge&logo=npm&logoColor=red) ](https://www.npmjs.com/package/npm/v/7.0.0 "NPM"){:target="_blank"}
+
+[![MongoDB](https://img.shields.io/badge/MONGODB->=5.0.9-589636?style=for-the-badge&logo=mongodb&logoColor=589636)](https://www.mongodb.com/docs/manual/release-notes/5.0/ "MongoDB"){:target="_blank"} 
+
+[![Baileys](https://img.shields.io/badge/@whiskeysockets/baileys-6.6.0-25d366?style=for-the-badge&logo=whatsapp&logoColor=25d366)](https://reactjs.org "Страница библиотеки Baileys"){:target="_blank"} 
 
 ## Запуск
 1. Для запуска приложения, потребуется в директориии(*из которой ведется запуск*) создать папку с названием номера телефона, который подключаем в приложение.
 
-2. В папке создаем файл `clicker_settings.yaml`, основанный на примере [файла настроек](./clicker_settings.yaml "Перейти к примеру настроек")
+2. В папке создаем файл `clicker_settings.yaml`, основанный на примере [файла настроек](./clicker_settings.yaml "Перейти к примеру настроек"){:target="_blank"} 
 
 1. Для запуска приложения, потребуются `API ID` и `API hash` приложения от **Telegram**. Получить их можно здесь: https://my.telegram.org/auth.
 
